@@ -1,0 +1,10 @@
+$(".wrapper").animate({width:"100vw"},1000);
+$(".wrapper").animate({height:"100vh"},1000,function(){
+    $("h1").slideDown(1000,function(){
+        $(".item:nth-child(1)").slideDown(1000,function(){
+            $(".item:nth-child(2)").slideDown(1000,function(){
+                $(".item:nth-child(3)").slideDown(1000)
+            })
+        })
+    })
+});
