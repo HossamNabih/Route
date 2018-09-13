@@ -1,16 +1,108 @@
 *{
     font-family: "segoe ui light";
 }
-.wrapper h1{
-    padding: 50px;
-    display: none;
+#home
+{
+    height: 500px;
+    background-color: #000
+}
+#home .nav-link
+{
+    font-size: 18px;
+    font-weight: bold;
+    margin:0px 4px;
+    border-bottom: 2px solid transparent;
+}
+#home .nav-link:hover
+{
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+#home .navbar-brand
+{
+    border: 2px solid #000;
+    border-top-left-radius:10px;
+    border-bottom-right-radius:10px;
+    padding: 5px 10px;
+    font-size: 25px;
+    letter-spacing: 3xpx;
+    font-weight: 800;
+}
+
+#about
+{
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #F8F9FA;
+}
+#about h2
+{
+    color: #184481;
+}
+#contact h2
+{
+    color: #184481;
     
 }
-.wrapper{
-    background-color: gray;
-    height: 2px;
-    width: 2px;
+#contact button 
+{
+    color: #fff;
+    background-color: #000;
+    padding: 10px 30px;
+    float:right;
+    border: 2px solid #000;
+    border-radius: 10px;
 }
-.item{
-    display: none;
+#contact button:hover
+{
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #000;
+}
+#contact input,#contact textarea
+{
+    background-color: #eee;
+    padding-bottom: 15px;
+}
+*::-webkit-input-placeholder
+{
+    color: #000!important;
+    font-size: 15px;
+    font-weight: 600;
+}
+*:-ms-input-placeholder 
+{
+    color: #000!important;
+    font-size: 15px;
+    font-weight: 600;
+}
+*::placeholder
+{
+    color: #000!important;
+    font-size: 15px;
+    font-weight: 600;
+}
+#footer
+{
+    background-color: #000;
+    color: #fff;
+}
+#footer .social-icons i
+{
+    margin-right: 10px;
+    cursor: pointer;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    padding-top: 8px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+#footer .social-icons i:hover
+{
+    color: #fff;
+    background-color: #184481;
+    border:1px solid #184481;
 }
